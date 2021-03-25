@@ -1,8 +1,11 @@
 ---
 ​---
-lang:zh-CN
+home:true
+sidebar:auto
 ​---
 ---
+
+# Hello VuePress
 
 # About
 
