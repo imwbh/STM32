@@ -1,12 +1,26 @@
 {
-  "name": "vuepress",
+  "name": "stm32",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imwbh/STM32.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imwbh/STM32/issues"
+  },
+  "homepage": "https://github.com/imwbh/STM32#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
 }
