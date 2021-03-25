@@ -1,4 +1,4 @@
 module.exports = {
-    title: 'Hello VuePress',
-    description: 'Just playing around'
+    title: 'STM32 Pages',
+    description: 'Note for STM32'
   }
