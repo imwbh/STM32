@@ -1,25 +1,32 @@
 ---
-​---
-lang:zh-CN
-​---
+home: true
+heroText: STM32 Pages
+tagline: STM32学习笔记
+actionText: 开始学习
+actionLink: /001-start/
+features:
+- title: 稳定
+  details: 基于Cloudflare Pages搭建，由VuePress驱动，地球不爆炸，本站不会炸
+- title: 长期
+  details: 作者为电子在读生，为整理学习成果，力图长期坚持更新
+- title: 有效
+  details: 每个页面都会附上更新日期，请以此判断文章时效性，旧页面也会根据变化更新
+footer: STM32 Pages for Learning
 ---
 
-# About
-
-本站点基于**Github&Cloudflare Pages&Vuepress**搭建
-
-用于存放学习STM32过程中相关的笔记
-
-author：nekonana
-
-# List
+# Pages List
 
 ::: tip
-该列表为总体列表，包含已更新和待更新项目 
 
-有什么新的想法都会开个待更新项目开坑
+无超链接的列表项为暂未更新但将会更新的页面
+
 :::
 
-- STM32开发环境选择
-- STM32资料库建立
-
+- 开发环境的选择与搭建
+- 学会资料的归档
+- STM32硬件初步认识
+- 使用GPIO点灯实验
+- GPIO检测按键输入
+- EXIT中断检测按键输入
+- USART进行数据收发的三种模式
+- printf重定向
