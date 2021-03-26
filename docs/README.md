@@ -1,9 +1,11 @@
 ---
 home: true
+lang: zh-CN
+heroImage: /banner.gif
 heroText: STM32 Pages
 tagline: STM32学习笔记
 actionText: 开始学习
-actionLink: /001-start/
+actionLink: /start/001-start/
 features:
 - title: 稳定
   details: 基于Cloudflare Pages搭建，由VuePress驱动，地球不爆炸，本站不会炸
@@ -14,7 +16,7 @@ features:
 footer: STM32 Pages for Learning
 ---
 
-# Pages List
+# Page Tasks List
 
 ::: tip
 
@@ -22,9 +24,9 @@ footer: STM32 Pages for Learning
 
 :::
 
+- STM32起步
+- 学会资料的归档与使用
 - 开发环境的选择与搭建
-- 学会资料的归档
-- STM32硬件初步认识
 - 使用GPIO点灯实验
 - GPIO检测按键输入
 - EXIT中断检测按键输入
