@@ -5,10 +5,12 @@ module.exports = {
         //logo: '/avatar.png',  // 左上角logo
         nav:[ // 导航栏配置
           {text: '首页', link: '/' },
-          {text: '源码', link: '' },
-          {text: '友链', link: ''}      
+          {text: 'STM32', link: '/stm32/001-start.html' },
+          {text: '', link: '/#'}      
         ],
-        sidebar: 'auto', // 侧边栏配置
+        sidebar: {
+            '/STM32/':getSTM32Sidebar('STM32', '起步')
+        },
         lastUpdated: '最后更新于', // string | boolean
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
         repo: 'imwbh/stm32',
@@ -35,4 +37,17 @@ module.exports = {
           lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
         }
       }
+  }
+  function getSTM32Sidebar (groupA, introductionA) {
+    return [
+      {
+        title: groupA,
+        collapsable: false,
+        sidebarDepth: 2,
+        children: [
+          ['001-start', introductionA],
+          '002-build-your-repo',
+        ]
+      }
+    ]
   }
